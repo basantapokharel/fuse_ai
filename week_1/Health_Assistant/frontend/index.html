@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fitness Helper</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Fitness Helper</h1>
+        <form action="" id="fitness-form">
+            <label for="height">Height (cm):</label>
+            <input type="number" name="height" id="height" required>
+            <br>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" name="weight" id="weight" required>
+            <br>
+            <label for="activity">Activity Level :</label>
+            <select name="activity" id="activity">
+                <option value="sedentary">Sedentary</option>
+                <option value="lightly_active">Lightly Active</option>
+                <option value="moderately_active">Moderately Active</option>
+                <option value="very_active">Very Active</option>
+                
+            </select>
+            <button type="submit">Get AI Recommendation</button>
+            
+            <div id="results"></div>
+        </form>
+    </div>
+    <script src="./static/script.js"></script>
+</body>
+</html>
