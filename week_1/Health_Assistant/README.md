@@ -60,7 +60,7 @@ uvicorn app:app --reload
 
 ## 📽️ Demo Video
 
-Watch the short demo here: [Demo Video](https://drive.google.com/your-demo-link)
+Watch the short demo here: [Demo Video](https://drive.google.com/file/d/1BxyufPVMrZHF6EUD_43rzDBYYqUykg2U/view?usp=sharing)
 
 ---
 
